@@ -45,8 +45,7 @@ function criarUsuario($usu,$nome,$senha){
     echo "query: $q";
     echo var_dump($resp);
 }
-criarUsuario("ola","mundo","caralho");
-criarUsuario("2","3","4");
+
 
 function CriarNoDb($into, $values){
     global $banco;
@@ -115,7 +114,8 @@ function deletarUsuario($usu){
     echo var_dump($resp);
 }
 
-AtualizarUsuario("Brito", "", "1233", true);
+
 
 ?>
+
 </pre>
